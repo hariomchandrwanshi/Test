@@ -1,0 +1,197 @@
+body {
+    margin: 0;
+    height: 100%;
+    width: 100%;
+  }
+
+  
+  .logo {
+    background-color: #f4f4f4;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 4vw;
+    background-color: #ccc;
+  }
+  
+  .logo img {
+    height: 80px;
+    width: 100px;
+    padding-right: 20vw;
+  }
+  .logo h1{
+    font-size: larger;
+  }
+  
+  .search-bar {
+    background-color: #fff;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .search-bar input {
+    border: none;
+    padding: 5px;
+  }
+  
+  .sec1{
+    display: flex;
+    padding: 20px;
+    gap: 5vw;
+  }
+  .stext h1{
+    font-size: xx-large;
+    font-weight: 600;
+  }
+  .s1img img{
+    border-radius: 20px;
+    box-shadow:  10px 10px rgba(0, 0, 0, 0.2);
+  }
+  .stext button{ 
+    background-color: chocolate;
+    color: #fff;
+    height: 5vh;
+    width: 8vw;
+    font-size: 14px;
+    font-weight: 600;
+  }
+  .stext button:hover{
+    background-color: bisque;
+    color: black;
+  }
+  .sec2{
+    display: flex;
+    gap: 4vw;
+    padding: 10vh;
+    background-color: rgb(221, 204, 243); 
+  }
+  .sec2 button{
+    background-color: chocolate;
+    color: #fff;
+    font-size: 15px;
+  }
+  .sec2 button:hover{
+    background-color: bisque;
+    color: black;
+}
+  .sec3{
+    display: flex;
+    background-color:#eee8f7;
+    justify-content: space-between;
+    gap: 5vw;
+    padding: 7vw;
+  }
+  .Ourteam{
+padding: 5vh;
+  }
+  .sec3 button{
+    background-color: chocolate;
+    color: #fff;
+  }
+  .sec3 button:hover{
+    background-color: bisque;
+    color: black;
+}
+  @media screen and (max-width: 600px) {
+    .logo {
+        display: flex;
+      gap: 1.9vw; 
+      font-size: 2.6px
+    }
+    
+    .logo img {
+      height: 60px; 
+      width: 150px; 
+      padding-right: 10vw; 
+    }
+    
+    .logo h1 {
+      font-size: medium; 
+    }
+    
+    .search-bar {
+      padding: 5px; 
+    }
+    
+    .search-bar input {
+      padding: 3px; 
+    }
+     
+  .sec1{
+     display: block;
+    padding: 20px;
+    gap: 5vw;
+  }
+  .s1img img{
+    justify-content: center;
+    height: 40vh;
+    width: 80vw;
+    border-radius: 10px;
+  }
+  .stext button{ 
+    background-color: chocolate;
+    color: #fff;
+    height: 5vh;
+    width: 40vw;
+    font-size: 15px;
+}
+.sec2{
+    display: contents;
+    background-color: rgb(221, 204, 243); 
+  }
+  .s2{
+    padding: 40px;
+  }
+  .s2 p{
+    font-size: 25px;
+  }
+  .sec2 button{
+    background-color: chocolate;
+    color: #fff;
+    font-size: 20px;
+    width: 25vw;
+    height: 5vh;
+
+}
+
+.sec3{
+   display: unset;
+   justify-content: center;
+   align-items: center;
+  }
+
+  .sec3 button{
+    background-color: chocolate;
+    color: #fff;
+    
+  }
+  .team{
+    padding-left: 5vw;
+  }  
+  .team p{
+    font-size: 22px;
+  }
+  .team img{
+    padding-left: 25vw;
+  }
+  .About{
+    padding-left: 7vw;
+  }
+  .About p{
+    font-size: 22px;
+
+  }
+  .About img{
+    padding-left: 25vw;
+
+  }
+  .News{
+    padding-left: 7vw;
+  }
+  .News li{
+    font-size: 22px;
+
+  }
+  }
